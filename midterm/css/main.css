@@ -20,29 +20,33 @@ header {
         height: auto;
     }
 
-h1 {
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    color: aqua;
-    font-size:50px ;    
+    h1 {
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        color: aqua;
+        font-size: 50px;
     }
 
-nav ul {
-        background-color: antiquewhite;
+    nav ul {
+        background-color: blanchedalmond;
     }
-   
-        
-    
 
-nav ul li {
+    nav ul li {
         float: center;
         display: inline;
         font-size: 40px;
         padding: 50px;
         margin: 50px;
-        
-        
-    }               
-    
+    }
 
+    article {
+        font-style: italic;
+        font-size: 22;
+    }
+
+    article img {
+        width: 160px;
+        float: left;
+        margin-right: 0.8rem;
+    }
