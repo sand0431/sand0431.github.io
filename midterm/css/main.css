@@ -1,23 +1,23 @@
 *{
     box-sizing: border-box;
+    
 }
 
 body {
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.7;
     background-color: aquamarine;
+    
 }
 
 header {
-    background-image: none;
-    background-size: cover;
     text-align: center;
     position: relative;
     }
 
     .header img {
-        width: 200px;
-        height: auto;
+        width: 100px;
+                
     }
 
     h1 {
@@ -36,7 +36,7 @@ header {
         float: center;
         display: inline;
         font-size: 40px;
-        padding: 50px;
+        padding: 90px;
         margin: 50px;
     }
 
@@ -73,6 +73,8 @@ header {
         max-width: 4rem;
         position: absolute;
         box-sizing: 50%;
+        margin: 1rem;
+        
     }
 
     input {
@@ -82,22 +84,22 @@ header {
 
     textarea {
         width: 1200%;
-        height: 130%;
-        padding: 10px 12px;
+        height: 120%;
         font-size: 20px;
     }
 
     .empty-box {
-        width: 900px;
+        width: 800px;
         height: 400px;
         background-color: bisque;
     }
 
     .section {
-        width: 20px;
-        font-size: 20px;
+        width: 30px;
+        font-size: 30px;
     }
 
+    
     button {
         width: 100px;
         height: 50px;
@@ -105,5 +107,6 @@ header {
     }
 
     footer {
-        font-size: 30px;
+        font-size: 20px;
+        float: right;
     }
