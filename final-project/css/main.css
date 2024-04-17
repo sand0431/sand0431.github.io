@@ -1,0 +1,204 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+    color: #222;
+  }
+
+  .container {
+    max-width: 1200px;
+    
+    
+  }
+  @media screen (min-width: 760px) {
+    .container {
+        padding: 40px; /* Increase padding on larger screens */
+    }
+}
+
+    .container {
+      min-width: 760px;
+      border: 2px solid;
+    }
+
+    
+
+    nav ul li {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+     .logo img {
+        width: 100px;
+    }
+    
+    article img {
+     width: 100px;
+    
+    }
+
+    
+    div img {
+        width: 745px;
+       
+    }
+
+    .about {
+        background-color: #c78c06;
+    }
+     h2 {
+        font-size: 3rem;
+        padding: 9px;
+        margin: 9px;
+        font-family: "open sans";
+       
+    }
+
+    
+  
+    .about p {
+        font-size: 2rem;
+        margin: 9px;
+        padding: 9px;
+        font-family: "open sans";
+    }
+
+    .services {
+        background-color: #c78c06;
+    }
+
+    .services {
+        font-size: 2rem;
+        margin: 9px;
+        padding: 9px;
+        font-family: open sans;
+    }
+    
+    .services p {
+        font-size: 2rem;
+        margin: 9px;
+        padding: 9px;
+        font-family: open sans;
+    }
+
+    section {
+        background-color: #c78c06;
+        margin-top: 8px;
+        
+        
+    }
+    
+    section p {
+        font-size: 2rem;
+        margin: 9px;
+        padding: 9px;
+        font-family: open sans;
+        background-color: #c78c06;
+    }
+    
+    button {
+        background-color: #222;
+        width: 150px;
+        margin: 6px;
+        padding: 6px;
+        font-size: 2rem;
+       display: inline-block;
+       color: #fff;
+    }
+
+    .vision {
+        background-color: #fff;
+        margin-top: 8px;
+    }
+
+    .vision img {
+        width: 750px;
+        height: 300px;
+    }
+
+    .vision text {
+        position: absolute; 
+    }
+
+   
+
+    .team h2 {
+       background-color: #fff;
+       margin: 0;
+    }
+
+    h3 {
+        font-size: 2rem;
+        margin: 1rem;
+    }
+
+    .team h5 {
+        font-size: 3rem;
+        padding: 9px;
+        margin: 5px;
+        font-family: "open sans";
+    }
+
+    .team h4 {
+        font-size: 2rem;
+        padding: 5px;
+        margin: 5px;
+        font-family: "open sans";
+        border-bottom: 1px solid #ffe6ac;
+        gap: 0;
+    }
+
+    form {
+        background-color: #fff;
+    }
+
+    form {
+        max-width: 5rem;
+         width: 45rem;
+         margin: 1rem;
+    }
+
+    input {
+        width: 900%;
+        height: 20%;
+    }
+    
+    textarea {
+        width: 45rem;
+        height: 10rem;
+
+    }
+     .send {
+          width: 2rem;
+          color: #fff;
+    }
+
+     caption {
+        font-size: 3rem;
+        display: inline;
+        font-family: "open sans";
+     }
+
+     table {
+        margin: 1rem;
+        border-collapse: collapse;
+        
+     }
+
+      th, td, tr {
+        border: 1px solid black;
+        margin: 2rem;
+        
+        
+        
+        
+     }
+     footer {
+        background-color: #222;
+        color: yellow;
+        padding: 20px;
+        text-align: left;
+     }
+
+     
